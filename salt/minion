@@ -1,0 +1,7 @@
+#Minion Config File for Masterless Salt.
+file_client: local
+
+file_roots:
+  base:
+    - /srv/salt/
+    - /srv/salt/pip/
