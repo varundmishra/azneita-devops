@@ -16,7 +16,7 @@ $ vagrant up
 - Installs git,python-pip,python flask,python Werkzeug
 - Sets the timezone to UTC
 - Clones the application from Git Repo
-- Starts the application
+- Starts the application on Port 80 of the Guest Machine
 
 **Tested on Windows 10 with vagrant (Version 2.2.0) and Oracle Virtual Box (Version 5.2.20 r125813)**
 
