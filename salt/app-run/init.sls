@@ -6,7 +6,6 @@ clone_app:
 
 app-run:
   cmd.run:
-    - name: |
-        nohup python app.py &
+    - name: python app.py >/dev/null 2>&1 &
     - cwd: /webapps/devops/
     - user: ubuntu
